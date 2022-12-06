@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  margin: 0;
+  width: 100%;
+  background: #fafafa;
 }
 
 .App-logo {
@@ -35,4 +37,132 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* heading */
+.header-topbar {
+  padding: 0px 40px;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Aeonik Pro Regular";
+  color: #3e4e6b;
+  letter-spacing: 0.3px;
+}
+
+.name-block h3 {
+}
+
+.button-block {
+  /* font-family: 'Aeonik Pro Bold';
+  letter-spacing: 0.5px; */
+}
+
+.contact-button {
+  padding: 12px 18px;
+  color: #fff;
+  text-decoration: none;
+  /* background: #ffb6de; */
+  background-color: #333366;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+
+/* landing main */
+
+.landing-text {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #333366;
+  font-family: "Aeonik Pro Regular";
+}
+
+.landing-text h2 {
+  font-size: 3.125vw;
+  line-height: 3.125vw;
+  letter-spacing: -0.02em;
+  font-feature-settings: "ss02" on, "ss05" on;
+}
+
+.landing-text h3 {
+  font-size: 2.125vw;
+  line-height: 3.125vw;
+  letter-spacing: -0.02em;
+  font-feature-settings: "ss02" on, "ss05" on;
+}
+
+.landing-text h2 span {
+  display: block;
+  font-size: 13.833vw;
+  line-height: 15.979vw;
+  padding-top: 20px;
+  font-feature-settings: "ss02" on, "ss05" on;
+  letter-spacing: -0.04em;
+  background: linear-gradient(269.45deg, #a3deff 28.78%, #fdd4ea 97%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: default;
+}
+
+/* work */
+.work-section {
+  background-color: #f3b1d5;
+  text-align: left;
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  color: #333366;
+  font-family: "Aeonik Pro Regular";
+}
+
+.work-section h2 {
+  align-self: flex-start;
+  margin: 2vmin;
+  margin-left: 5vmin;
+  display: block;
+  font-size: 8.833vw;
+  line-height: 15.979vw;
+  padding-top: 5px;
+  font-feature-settings: "ss02" on, "ss05" on;
+  letter-spacing: -0.03em;
+  background: linear-gradient(269.45deg, #a3deff 28.78%, #fdd4ea 97%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: default;
+}
+
+.project-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 3vmin;
+  margin: 0 5vmin;
+}
+
+.pink-block {
+  /* padding: 20%; transform: translate(0px, -95%); */
+  margin-top: 65px;
+  background-color: #f3b1d5;
+  color: #fff;
+  /* border-radius: 80px; */
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: -0.01em;
+  font-feature-settings: "ss02" on, "ss05" on;
+  padding: 20% 20%;
+  text-align: left;
+  /* transition: all 300ms; */
 }

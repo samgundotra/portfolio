@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Responsive Redesign",
+    "description": "",
+    "image": "https://i.ibb.co/Qrch3RT/response-redesign-mockup.jpg",
+    "project_type": "A Prototype",
+    "page_address": "responsive-redesign"
+  },
+  {
+    "name": "Iterative Design: Raven",
+    "description": "",
+    "image": "https://i.ibb.co/NF36WhP/iterative-design-mockup.jpg",
+    "project_type": "An Interactive Prototype",
+    "page_address": "iterative-design"
+  },
+  {
+    "name": "Zazz",
+    "description": "",
+    "image": "https://i.ibb.co/gyyTxJR/zazz-cover.jpg",
+    "style": "Statement",
+    "project_type": "An IOS App",
+    "page_address": "zazz"
+  },
+  {
+    "name": "Personas & Storyboarding",
+    "description": "",
+    "image": "https://i.ibb.co/C63p3ZZ/Screen-Shot-2022-12-06-at-3-06-02-PM.png",
+    "project_type": "A UX Experiment",
+    "page_address": "personas"
+  }
+]

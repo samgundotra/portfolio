@@ -1,0 +1,56 @@
+.blogcard__grid {
+  padding: 6vmin;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 13vmin 0;
+  justify-content: space-around;
+}
+
+.blog__each {
+  background: #ffffff;
+  border-radius: 40px;
+  overflow: hidden;
+  /* min-width: 35vw; */
+  max-height: 60vw;
+  width: 37vw;
+  box-shadow: 0 14px 28px rgba(48, 16, 42, 0.08),
+    0 10px 10px rgba(48, 16, 42, 0.12);
+}
+
+.blog__each:hover {
+  box-shadow: 0 14px 28px rgba(48, 16, 42, 0.25),
+    0 10px 10px rgba(48, 16, 42, 0.22);
+}
+
+.blog__each a {
+  display: block;
+  /* padding-bottom: 80px; */
+  height: 100%;
+  position: relative;
+  text-decoration: none;
+  color: #3e4e6b;
+}
+
+.blog__each .blog__thumb img {
+  width: 100%;
+  object-fit: cover;
+  max-height: 400px;
+}
+
+.blog__title {
+  padding: 40px 50px;
+}
+
+.blog__title h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  margin-bottom: 25px;
+}
+
+.blog__title p {
+  font-size: 18px;
+  line-height: 24px;
+}
