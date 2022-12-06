@@ -162,7 +162,7 @@ function ResponsiveResign() {
               />
             </div>
             <div className="column">
-              <p>AFTER</p>
+              <p>After</p>
               <Image
                 style={{ width: "80%", height: "auto", backdropFilter:"blur(5px)" }}
                 zoomed={zoomed7}
