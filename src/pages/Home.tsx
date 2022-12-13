@@ -13,14 +13,14 @@ function Home() {
     <div className="App">
       <div className="header-topbar">
         <div className="name-block">
-          <h2>Samantha Gundotra </h2>
+          <h2>HappyKoala22 </h2>
         </div>
         <div className="button-block">
           <a className="contact-button">Contact</a>
         </div>
       </div>
       <section className="landing-text">
-        <h2>Hi, I'm Sam.</h2>
+        <h2>Hi, I'm HappyKoala22.</h2>
         <h2>
           I believe that design should be playful, <span>experimental,</span>{" "}
           and collaborative.

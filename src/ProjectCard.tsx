@@ -22,8 +22,11 @@ function ProjectCard(props: { project: any }) {
           </div>
           <p>
             <span className="blog__author">{project.project_type}</span>
+
+
             {/* <span className="blog__date">{project.project_type}</span> */}
           </p>
+          <div className="label-visit">VIEW PROJECT</div>
         </div>
         {/* </a> */}
       </Link>

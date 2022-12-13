@@ -1,14 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import logo from "./logo.svg";
 import { Card } from "antd";
 import ".//../App.css";
 import "./CaseStudy.css";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import * as ri from "react-icons/ri";
 import Image from "react-image-enlarger";
 
 function ResponsiveResign() {
-  const { Meta } = Card;
   const [zoomed1, setZoomed1] = React.useState(false);
   const [zoomed2, setZoomed2] = React.useState(false);
   const [zoomed3, setZoomed3] = React.useState(false);
@@ -17,16 +16,22 @@ function ResponsiveResign() {
   const [zoomed6, setZoomed6] = React.useState(false);
   const [zoomed7, setZoomed7] = React.useState(false);
 
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
+
 
   return (
     <div className="App">
       <div className="header-topbar">
         <div className="name-block">
-          <h2>Samantha Gundotra </h2>
+          <h2>HappyKoala22 </h2>
         </div>
         <div className="button-block">
-          <Link to="/" className="contact-button">
-            Work
+          <Link to="/" className="home-button">
+            <ri.RiHome4Line/>
           </Link>
           <a className="contact-button">Contact</a>
         </div>
