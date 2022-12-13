@@ -55,6 +55,7 @@ function Home() {
             projectData.map((item, index) => <ProjectCard project={item} />)}
         </div>
       </section>
+      
     </div>
   );
 }

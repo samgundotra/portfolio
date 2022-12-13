@@ -22,7 +22,7 @@ function Personas() {
   }, [pathname])
 
   return (
-    <div className="App">
+    <div className="App" style={{paddingBottom: '11vh'}}>
       <div className="header-topbar">
         <div className="name-block">
           <h2>HappyKoala22 </h2>

@@ -2,6 +2,7 @@
   margin: 0;
   width: 100%;
   background: #fafafa;
+  
 }
 
 .App-logo {
@@ -144,6 +145,7 @@
   /* justify-content: center; */
   color: #333366;
   font-family: "Aeonik Pro Regular";
+  padding-bottom: 11vh;
 }
 
 .work-section h2 {
