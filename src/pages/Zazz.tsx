@@ -90,7 +90,7 @@ function Zazz() {
           </div>
           <h1>The Finished Product</h1>
           <p>
-            You can see the finished product by downloading or viewing Zazz on the <a className="link" href="https://apps.apple.com/us/app/zazz/id1644040267">App Store</a> or checking out some of the screenshots below. Ultimately, I am happy with how it turned out, but I believe that some of my design choices were limited by my knowledge SwiftUI. Design is never done and I look forward to building on this foundation.
+            You can see the finished product by downloading or viewing Zazz on the <a className="link" href="#">App Store</a> or checking out some of the screenshots below. Ultimately, I am happy with how it turned out, but I believe that some of my design choices were limited by my knowledge of SwiftUI. Design is never done and I look forward to building on this foundation.
             <br></br>
             <br></br>
             

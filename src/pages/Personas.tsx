@@ -145,7 +145,7 @@ function Personas() {
           </div>
           <h1>Mapping the User Journey</h1>
           <p>
-            My next task was to storyboard my persona’s user journey from start to end. I wanted to reflect the goals of your persona and include all necessary steps for using an interface.
+            My next task was to storyboard my persona’s user journey from start to end. I wanted to reflect the goals of the personas and include all necessary steps for using an interface.
             <br></br>
             <br></br>
             

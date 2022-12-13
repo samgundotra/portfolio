@@ -24,10 +24,12 @@
 
 .title-text h2 span {
   display: block;
-  font-size: 12vw;
+  /* font-size: 12vw; */
+  font-size: 10vw;
   /* margin: 0 20vh; */
   line-height: 15.979vw;
-  padding-top: 20px;
+  /* margin-top: -10vw; */
+  /* padding-top: 20px; */
   font-feature-settings: "ss02" on, "ss05" on;
   letter-spacing: -0.04em;
   background: linear-gradient(269.45deg, #a3deff 28.78%, #fdd4ea 97%);

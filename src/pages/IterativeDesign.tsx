@@ -65,7 +65,7 @@ function IterativeDesign() {
           </div>
           <h1>Initial Sketches</h1>
           <p>
-          Each group member made a set of 3 sketch brainstorms for our interface. We each attempted to explore different design alternatives, with variance in layout hierarchies, list formats, charts. We also experimented with which pages should make up the most important part of the solution: for example, one of our sets included an API documentation page. Below is the set of sketches I proposed.
+          Each group member made a set of 3 sketch brainstorms for our interface. We each attempted to explore different design alternatives, with variance in layout hierarchies, list formats, charts. We also experimented with sets of pages we believed were important: for example, one of our sets included an API documentation page. Below is the set of sketches I proposed.
           
           </p>
           <p>
@@ -120,7 +120,7 @@ function IterativeDesign() {
           </div>
           <h1>Critique Studio</h1>
           <p>
-            After creating our prototype we had a critique session with a group of peers.We wrote this list down in real time, and organized it into the pages it fits under. Some of the most glaring feedback points were directed towards the Send Notifications process, which we found reasonable as sending notifications is the primary task of our interface. We also received other feedback noting that the design of the Manage Templates page was inconsistent with the rest of our design choices, and that the Preferred Channels interface could be improved as well.
+            After creating our prototype we had a critique session with a group of peers. We wrote this list down in real time, and organized it into the pages it fits under. Some of the most glaring feedback points were directed towards the Send Notifications process, which we found reasonable as sending notifications is the primary task of our interface. We also received other feedback noting that the design of the Manage Templates page was inconsistent with the rest of our design choices, and that the Preferred Channels interface could be improved as well.
             < br></br>
             <br></br>
             Create New Notifications (under Send Notification process):
