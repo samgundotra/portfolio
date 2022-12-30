@@ -6,6 +6,7 @@ import "./CaseStudy.css";
 import { Link, useLocation } from "react-router-dom";
 import * as ri from "react-icons/ri";
 import Image from "react-image-enlarger";
+import ProjectHeader from "./ProjectHeader";
 
 function Zazz() {
   const [zoomed4, setZoomed4] = React.useState(false);
@@ -18,17 +19,7 @@ function Zazz() {
 
   return (
     <div className="App" style={{paddingBottom: '11vh'}}>
-      <div className="header-topbar">
-        <div className="name-block">
-          <h2>HappyKoala22 </h2>
-        </div>
-        <div className="button-block">
-          <Link to="/" className="home-button">
-            <ri.RiHome4Line/>
-          </Link>
-          <a className="contact-button">Contact</a>
-        </div>
-      </div>
+      <ProjectHeader />
       <section className="title-text">
         <h2>
           <span>Zazz</span>An IOS App.{" "}
@@ -90,7 +81,7 @@ function Zazz() {
           </div>
           <h1>The Finished Product</h1>
           <p>
-            You can see the finished product by downloading or viewing Zazz on the <a className="link" href="#">App Store</a> or checking out some of the screenshots below. Ultimately, I am happy with how it turned out, but I believe that some of my design choices were limited by my knowledge of SwiftUI. Design is never done and I look forward to building on this foundation.
+            You can see the finished product by downloading or viewing Zazz on the <a className="link" href="https://apps.apple.com/us/app/zazz/id1644040267">App Store</a> or checking out some of the screenshots below. Ultimately, I am happy with how it turned out, but I believe that some of my design choices were limited by my knowledge of SwiftUI. Design is never done and I look forward to building on this foundation.
             <br></br>
             <br></br>
             

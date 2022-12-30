@@ -6,6 +6,7 @@ import "./CaseStudy.css";
 import { Link, useLocation } from "react-router-dom";
 import * as ri from "react-icons/ri";
 import Image from "react-image-enlarger";
+import ProjectHeader from "./ProjectHeader";
 
 function ResponsiveResign() {
   const [zoomed1, setZoomed1] = React.useState(false);
@@ -25,17 +26,7 @@ function ResponsiveResign() {
 
   return (
     <div className="App" style={{paddingBottom: '11vh'}}>
-      <div className="header-topbar">
-        <div className="name-block">
-          <h2>HappyKoala22 </h2>
-        </div>
-        <div className="button-block">
-          <Link to="/" className="home-button">
-            <ri.RiHome4Line/>
-          </Link>
-          <a className="contact-button">Contact</a>
-        </div>
-      </div>
+      <ProjectHeader />
       <section className="title-text">
         <h2>
           <span>Responsive Redesign</span>A design refresh on a local bagel
