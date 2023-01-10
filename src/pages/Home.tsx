@@ -4,7 +4,7 @@ import "./../App.css";
 import { Card } from "antd";
 import projectData from "./../projects.json";
 import ProjectCard from "./../ProjectCard";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 function Home() {
   const { Meta } = Card;
@@ -12,11 +12,11 @@ function Home() {
   return (
     <div className="App">
       <div className="header-topbar">
-        <div className="name-block">
-          <h2>Sam Gundotra </h2>
+      <div className="name-block">
+          <h2><Link to="/" style={{textDecoration: 'none', color:'inherit'}}>Sam Gundotra </Link></h2>
         </div>
         <div className="button-block">
-          <a className="contact-button">Contact</a>
+          <a className="contact-button" href="mailto: samantha_gundotra@brown.edu">Contact</a>
         </div>
       </div>
       <section className="landing-text">
