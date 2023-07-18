@@ -1,13 +1,67 @@
-import React from "react";
+import React, { useEffect } from "react";
 import logo from "./logo.svg";
 import "./../App.css";
 import { Card } from "antd";
 import projectData from "./../projects.json";
 import ProjectCard from "./../ProjectCard";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import gsap from "gsap";
 
 function Home() {
   const { Meta } = Card;
+
+  useEffect(() => {
+    const title = document.getElementById("title");
+
+    if (title) {
+      const mouseEnterHandler = () => {
+        gsap.to(".distort feDisplacementMap", 1, {
+          attr: {
+            scale: 100
+          },
+          ease: "circ.out"
+        });
+        gsap.to(".distort feTurbulence", 1, {
+          attr: {
+            baseFrequency: '2.08 .08'
+          },
+          ease: "circ.out"
+        });
+        gsap.to(title, 1, {
+          fontVariationSettings: "'wght' 650",
+          ease: "back.out"
+        });
+      };
+
+      const mouseLeaveHandler = () => {
+        gsap.to(".distort feDisplacementMap", 1, {
+          attr: {
+            scale: 0
+          },
+          ease: "circ.out"
+        });
+        gsap.to(".distort feTurbulence", 1, {
+          attr: {
+            baseFrequency: '2.01 .01'
+          },
+          ease: "circ.out"
+        });
+        gsap.to(title, 1, {
+          fontVariationSettings: "'wght' 700",
+          ease: "back.out"
+        });
+      };
+
+      title.addEventListener("mouseenter", mouseEnterHandler);
+      title.addEventListener("mouseleave", mouseLeaveHandler);
+
+      return () => {
+        title.removeEventListener("mouseenter", mouseEnterHandler);
+        title.removeEventListener("mouseleave", mouseLeaveHandler);
+      };
+    }
+  }, []);
+
 
   return (
     <div className="App">
@@ -22,9 +76,15 @@ function Home() {
       <section className="landing-text">
         <h2>Hi, I'm Sam Gundotra.</h2>
         <h2>
-          I believe that design should be playful, <span>experimental,</span>{" "}
+          I believe that design should be playful, <span id="title">experimental,</span>{" "}
           and collaborative.
         </h2>
+        <svg className="distort">
+        <filter id="distortionFilter">
+          <feTurbulence type="fractalNoise" baseFrequency="2.01 .01" numOctaves="5" seed="2" stitchTiles="noStitch" x="0%" y="0%" width="100%" height="100%" result="noise"></feTurbulence>
+          <feDisplacementMap in="SourceGraphic" in2="noise" scale="0" xChannelSelector="R" yChannelSelector="B" x="0%" y="0%" width="100%" height="100%" filterUnits="userSpaceOnUse"></feDisplacementMap>
+        </filter>
+      </svg>
         {/* <p>View my work</p> */}
         <svg
           width="22"
